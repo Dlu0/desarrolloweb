@@ -1,0 +1,40 @@
+/**partes de AEPE*/
+.parteUno{
+    padding: 20px;
+    font-style: inherit;
+    font-weight: 600px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    img{
+        @include medidas (20px,40%,none)
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
+.parteDos{
+    padding: 20px;
+    font-style: inherit;
+    font-weight: 600px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    img{
+        padding: 20px;
+        width: 40%;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+} 
+.parteTres{
+    padding: 20px;
+    font-style: inherit;
+    font-weight: 600px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    img{
+        @include medidas (20px,40%,none)
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center; }
+    }

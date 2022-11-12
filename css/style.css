@@ -1,0 +1,356 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,200;1,200 & display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.contBody header {
+  grid-area: header; }
+
+.contBody main {
+  grid-area: main; }
+
+.contBody footer {
+  grid-area: footer; }
+
+/**camaleon index*/
+.background-img {
+  width: 100%;
+  background-image: url(../assets/meleoron.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-y: center;
+  background-attachment: fixed; }
+
+/** posicionamiento de la barra de navegacion*/
+.navBar {
+  margin-left: 75px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-around; }
+  .navBar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-style: inherit; }
+
+/**tucan alimentacion*/
+.background-img-tucan {
+  width: 100%;
+  background-image: url(../assets/tucan.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed; }
+
+/**titulo alimentacion*/
+section .tituloTuc {
+  color: white;
+  font-size: 46px;
+  font-weight: 600;
+  font-style: inherit;
+  font-family: 'Poppins', sans-serif; }
+
+/**yaguarete AEPE*/
+.background-img-yaguarete {
+  width: 100%;
+  background-image: url(../assets/yaguarete.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+/**titulo AEPE*/
+.tituloYag {
+  color: white;
+  font-size: 46px;
+  font-weight: 600;
+  font-style: inherit;
+  font-family: 'Poppins', sans-serif; }
+
+/**papagayocontacto*/
+.background-img-papagayo {
+  width: 100%;
+  background-image: url(../assets/papagayo.webp);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed; }
+
+/**encabezado contacto*/
+.textoContacto h1 {
+  color: white;
+  font-size: 46px;
+  font-weight: 600;
+  font-style: inherit;
+  font-family: 'Poppins', sans-serif; }
+
+.tamanioTitulosPrincipales h1, .tamanioTitulosPrincipales h2 {
+  color: white;
+  font-size: 46px;
+  font-weight: 600;
+  font-style: inherit;
+  font-family: 'Poppins', sans-serif; }
+
+/**coco novedades*/
+.background-img-cocodrilo {
+  width: 100%;
+  background-image: url(../assets/crocodile.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed; }
+
+/**titulo novedades*/
+section .tituloCroc {
+  color: white;
+  font-size: 46px;
+  font-weight: 600;
+  font-style: inherit;
+  font-family: 'Poppins', sans-serif; }
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  background-color: #0f3443;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  padding: 1em;
+  font-style: inherit;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+ul {
+  list-style: none; }
+  ul li a {
+    color: white;
+    text-decoration: none; }
+
+/**F-I-T redes sociales VEREMOS*/
+.redesSociales {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white; }
+  .redesSociales img {
+    border-radius: 50%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; }
+
+/**primera parte del main index */
+.titulo {
+  color: #138555;
+  font-size: 33px;
+  font-weight: 600;
+  font-style: inherit;
+  font-family: 'Poppins', sans-serif; }
+
+/**article texto index*/
+h3 {
+  padding: 15px;
+  font-style: inherit;
+  font-weight: 600;
+  font-size: 33px;
+  font-family: 'Poppins', sans-serif; }
+
+img {
+  padding-left: 40px; }
+
+.yutu {
+  width: 100%; }
+
+p {
+  padding: 5px;
+  font-size: 24px;
+  font-style: inherit;
+  font-family: 'Poppins', sans-serif; }
+
+.yutu {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+main {
+  background-color: #e7e7e0; }
+
+/**primera parte main, index */
+.contenedor-nuestra-mision {
+  padding: 40px;
+  width: 100%;
+  height: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: inherit;
+  font-size: 24px; }
+
+/**imagen del abrazo del tigre*/
+.contenedor-nuestra-mision .abrazo-tigre {
+  width: 300px;
+  margin-right: 20px; }
+
+section article {
+  background: #34e89e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0f3443, #34e89e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0f3443, #34e89e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+/** main alimentacion*/
+.frutas {
+  padding-left: 40px;
+  width: 40%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+
+.priPartAliment h2 {
+  padding: 20px;
+  font-style: inherit;
+  font-family: 'Poppins', sans-serif; }
+
+.priPartAliment h3 {
+  padding: 10px;
+  font-style: inherit;
+  font-family: 'Poppins', sans-serif; }
+
+.partAliment {
+  padding: 20px;
+  font-size: 24px;
+  font-style: inherit;
+  font-family: 'Poppins', sans-serif; }
+
+/**partes de AEPE*/
+.parteUno {
+  padding: 20px;
+  font-style: inherit;
+  font-weight: 600px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif; }
+  .parteUno img {
+    padding: 20px;
+    width: 40%;
+    height: none;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; }
+
+.parteDos {
+  padding: 20px;
+  font-style: inherit;
+  font-weight: 600px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif; }
+  .parteDos img {
+    padding: 20px;
+    width: 40%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; }
+
+.parteTres {
+  padding: 20px;
+  font-style: inherit;
+  font-weight: 600px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif; }
+  .parteTres img {
+    padding: 20px;
+    width: 40%;
+    height: none;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; }
+
+/**primera parte main nov*/
+.mainNov {
+  width: 100%;
+  height: 1120px; }
+  .mainNov h2 {
+    padding: 20px; }
+
+.asideNov {
+  color: white;
+  background: #34e89e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0f3443, #34e89e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0f3443, #34e89e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+/**primera parte main*/
+section .containerNovedades {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 20px;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: 'Poppins', sans-serif;
+  /**segunda parte main novedades*/ }
+  section .containerNovedades .cardN {
+    padding: 20px;
+    width: 330px;
+    height: 960px;
+    box-shadow: 8 2px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all 0.25s;
+    /**tamaño de cards novedades*/
+    /**grosor titulo 3 novedades*/
+    /**texto de las cards novedades*/ }
+    section .containerNovedades .cardN img {
+      width: 300px;
+      height: 220px; }
+    section .containerNovedades .cardN h3 {
+      font-weight: 600; }
+    section .containerNovedades .cardN p {
+      padding-left: 45px;
+      font-size: 16px;
+      font-weight: 330; }
+
+/**efecto en 2da parte novedades*/
+.containerNovedades .cardN:hover {
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
+/**aside novedades*/
+aside {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 60px;
+  font-style: inherit;
+  font-family: 'Poppins', sans-serif;
+  /**h3 aside novedades*/ }
+  aside h3 {
+    font-size: 30px; }
+
+/**main contacto*/
+main .mainContacto, main main {
+  padding: 10px;
+  font-style: inherit;
+  font-weight: 80px;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif; }
+
+main img {
+  padding: 20px; }
+
+/**formulario*/
+.formu {
+  padding: 20px;
+  font-style: inherit;
+  font-weight: 80px;
+  font-size: 23px;
+  font-family: 'Poppins', sans-serif; }
+
+.letter::first-letter {
+  color: #138555;
+  font-size: 40px; }

@@ -1,0 +1,25 @@
+@mixin prop-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+@mixin prop-flex-aro{
+    display: flex;
+justify-content: space-around;
+}
+@mixin prop-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex-nov {
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+@mixin medidas ($padding,$width,$height) {
+    padding: $padding;
+    width: $width;
+    height: $height;
+    
+}

@@ -1,0 +1,32 @@
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: $color-white;
+    background-color: $color-footer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 1em;
+    font-style: inherit;
+    list-style: none;
+    @include prop-grid;
+}
+    ul{
+        list-style: none;
+        li a{
+            color: $color-white;
+            text-decoration: none;
+        }
+    }
+    /**F-I-T redes sociales VEREMOS*/
+.redesSociales{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: $color-white;
+    img{
+        border-radius: 50%;
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+}

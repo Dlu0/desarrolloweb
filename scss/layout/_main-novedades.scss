@@ -1,0 +1,64 @@
+/**primera parte main nov*/
+.mainNov{
+    width: 100%;
+    height: 1120px;
+    
+ h2{
+    padding: 20px;
+}
+}
+.asideNov{
+    color: $color-white;
+    background: #34e89e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/**primera parte main*/
+section .containerNovedades{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+    width: 100%;
+    height: 700px;
+    @include flex-nov;
+    font-family: 'Poppins', sans-serif;
+    /**segunda parte main novedades*/
+.cardN{
+    @include medidas (20px, 330px, 960px)
+    box-shadow: 8 2px 2px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: all 0.25s;
+    /**tamaño de cards novedades*/
+    img{
+        width: 300px;
+        height: 220px;
+    }
+    /**grosor titulo 3 novedades*/
+    h3{
+        font-weight: 600;
+    }
+    /**texto de las cards novedades*/
+    p{
+        padding-left: 45px;
+        font-size: 16px;
+        font-weight: 330;
+    }
+}
+}
+/**efecto en 2da parte novedades*/
+.containerNovedades .cardN:hover{
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+/**aside novedades*/
+aside{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 60px;
+    font-style: inherit;
+    font-family: 'Poppins', sans-serif;
+    /**h3 aside novedades*/
+    h3{
+        font-size: 30px;
+    }
+}

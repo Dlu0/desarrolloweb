@@ -1,0 +1,52 @@
+/**primera parte del main index */
+.titulo{
+    color: $color-green;
+    font-size: 33px;
+    font-weight: 600;
+    font-style: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+/**article texto index*/
+ h3{
+    padding:15px;
+    font-style: inherit;
+    font-weight: 600;
+    font-size: 33px;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    padding-left: 40px;
+}
+.yutu{
+    width: 100%;
+}
+p{
+    padding: 5px;
+    font-size: 24px;
+    font-style: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+.yutu{
+    padding: 40px;
+    @include prop-flex;
+}
+main{
+    background-color: rgb(231, 231, 224);
+}
+/**primera parte main, index */
+.contenedor-nuestra-mision{
+    @include medidas (40px,100%,none)
+    font-family: 'Poppins', sans-serif;
+    font-style: inherit;
+    font-size: 24px;
+}
+/**imagen del abrazo del tigre*/
+.contenedor-nuestra-mision .abrazo-tigre{
+    width: 300px;
+    margin-right: 20px;
+} 
+section article{
+    background: #34e89e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

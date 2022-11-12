@@ -1,0 +1,115 @@
+.contBody{  header{
+    grid-area: header;
+    }
+     main{
+    grid-area: main;
+    }
+     footer{
+        grid-area: footer;
+        }
+    }
+/**camaleon index*/
+.background-img{
+    width: 100%;
+    background-image: url(../assets/meleoron.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+/** posicionamiento de la barra de navegacion*/
+.navBar{
+    margin-left: 75px;
+    padding: 25px;
+    @include prop-flex-aro;
+    li a{
+        text-decoration: none;
+        color: $color-white;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        font-style: inherit;
+    }
+
+}
+/**tucan alimentacion*/
+.background-img-tucan{
+    width: 100%;
+    background-image: url(../assets/tucan.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/**titulo alimentacion*/
+section .tituloTuc{
+    color: $color-white;
+    font-size: 46px;
+    font-weight: 600;
+    font-style: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+
+/**yaguarete AEPE*/
+.background-img-yaguarete{
+    width: 100%;
+    background-image: url(../assets/yaguarete.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/**titulo AEPE*/
+.tituloYag{
+    color: $color-white;
+    font-size: 46px;
+    font-weight: 600;
+    font-style: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+/**papagayocontacto*/
+.background-img-papagayo{
+    width: 100%;
+    background-image: url(../assets/papagayo.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/**encabezado contacto*/
+.textoContacto{
+    h1{
+    color: $color-white;
+    font-size: 46px;
+    font-weight: 600;
+    font-style: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+    }
+    .tamanioTitulosPrincipales{
+        h1, h2{
+        color: $color-white;
+        font-size: 46px;
+        font-weight: 600;
+        font-style: inherit;
+        font-family: 'Poppins', sans-serif;
+    }
+    }
+    /**coco novedades*/
+.background-img-cocodrilo{
+    width: 100%;
+    background-image: url(../assets/crocodile.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/**titulo novedades*/
+section .tituloCroc{
+    color: $color-white;
+    font-size: 46px;
+    font-weight: 600;
+    font-style: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+    

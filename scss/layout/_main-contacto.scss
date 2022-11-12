@@ -1,0 +1,26 @@
+/**main contacto*/
+main .mainContacto{
+    padding: 10px;
+    font-style: inherit;
+    font-weight: 80px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+main { @extend .mainContacto;
+    img{
+    padding: 20px;
+
+}
+}
+/**formulario*/
+.formu{
+    padding: 20px;
+    font-style: inherit;
+    font-weight: 80px;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+}
+.letter::first-letter{
+    color: $color-green;
+    font-size: 40px;
+}
