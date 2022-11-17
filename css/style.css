@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,200;1,200 & display=swap");
 * {
   padding: 0;
@@ -268,12 +267,12 @@ section article {
     background-attachment: fixed;
     background-position: center; }
 
-/**primera parte main nov*/
 .mainNov {
   width: 100%;
-  height: 1120px; }
-  .mainNov h2 {
-    padding: 20px; }
+  margin: 0; }
+
+h2 {
+  padding: 20px; }
 
 .asideNov {
   color: white;
@@ -284,45 +283,22 @@ section article {
   background: linear-gradient(to top, #0f3443, #34e89e);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
-/**primera parte main*/
-section .containerNovedades {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding: 20px;
-  width: 100%;
-  height: 700px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  font-family: 'Poppins', sans-serif;
-  /**segunda parte main novedades*/ }
-  section .containerNovedades .cardN {
-    padding: 20px;
-    width: 330px;
-    height: 960px;
-    box-shadow: 8 2px 2px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    transition: all 0.25s;
-    /**tamaño de cards novedades*/
-    /**grosor titulo 3 novedades*/
-    /**texto de las cards novedades*/ }
-    section .containerNovedades .cardN img {
-      width: 300px;
-      height: 220px; }
-    section .containerNovedades .cardN h3 {
-      font-weight: 600; }
-    section .containerNovedades .cardN p {
-      padding-left: 45px;
-      font-size: 16px;
-      font-weight: 330; }
-
-/**efecto en 2da parte novedades*/
-.containerNovedades .cardN:hover {
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+.cardN {
+  /**grosor titulo 3 novedades*/
+  /**texto de las cards novedades*/ }
+  .cardN img {
+    padding-left: 40px; }
+  .cardN h3 {
+    font-weight: 600; }
+  .cardN p {
+    margin: 0;
+    padding-left: 45px;
+    font-size: 16px;
+    font-weight: 330; }
 
 /**aside novedades*/
 aside {
+  margin: 0;
   padding: 20px;
   font-size: 20px;
   font-weight: 60px;
@@ -354,3 +330,11 @@ main img {
 .letter::first-letter {
   color: #138555;
   font-size: 40px; }
+
+@media (max-width: 768px) {
+  .containerNovedades {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); }
+    .containerNovedades .cardN {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(1, 1fr); } }
