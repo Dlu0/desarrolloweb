@@ -309,6 +309,9 @@ aside {
     font-size: 30px; }
 
 /**main contacto*/
+.marg {
+  margin: 0; }
+
 main .mainContacto, main main {
   padding: 10px;
   font-style: inherit;
